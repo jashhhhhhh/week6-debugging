@@ -1,12 +1,12 @@
 def add( first, second):
     # TODO:
     # there's an error in this code, fix it
-    return first + second
+    return (first + second)
 
 def subtract( first, second):
     # TODO:
     # fill in code here that will return the difference between first and second
-    return first - second
+    return (first - second)
 
 def multiply( first, second):
     # TODO:
@@ -22,5 +22,5 @@ def divide( first, second):
     #   3. returns the quotient of first and second
     if second == 0:
         raise Exception("Im sorry, I can't divide by zero.")
-
-    return first / second
+    else:
+        return (first / second)
